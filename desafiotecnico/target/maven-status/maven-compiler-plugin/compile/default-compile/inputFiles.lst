@@ -1,0 +1,16 @@
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\dto\ContaDTO.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\filters\PessoaFilter.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\dto\TransacaoDTO.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\dto\PessoaDTO.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\entities\ContaEntity.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\filters\PessoaCPFValidation.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\repositories\ContaRepository.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\MainApplication.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\entities\PessoaEntity.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\repositories\TransacaoRepository.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\exceptions\PessoaException.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\mappers\PessoaMapper.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\services\PessoaService.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\controllers\PessoaController.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\entities\TransacaoEntity.java
+C:\Users\Fernando\projetos\bemobi\desafio2\desafiotecnico\src\main\java\org\dock\repositories\PessoaRepository.java
