@@ -27,3 +27,9 @@ Para baixar as bibliotecas utilizada e dar um build no projeto execute na raiz d
 ### Rodando o Projeto
 Na pasta src/main/java selecione o arquivo MainApplication, clique com o botão direito do mouse e clique em *RUN*
 
+### Testando com swagger
+Acesse a URL abaixo:
+ ```
+*  http://localhost:8080/swagger-ui/index.html
+```  
+

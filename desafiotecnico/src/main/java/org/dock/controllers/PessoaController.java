@@ -14,7 +14,7 @@ public class PessoaController {
     private final PessoaService pessoaService;
 
     @PostMapping
-    @ResponseStatus(code = HttpStatus.OK)
+    @ResponseStatus(code = HttpStatus.CREATED)
     public Long save(@RequestBody final PessoaDTO pessoaDTO) {
         return pessoaService.save(pessoaDTO);
     }

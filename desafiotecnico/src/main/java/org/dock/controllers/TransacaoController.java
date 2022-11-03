@@ -14,7 +14,7 @@ public class TransacaoController {
     private final TransacaoService transacaoService;
 
     @PostMapping
-    @ResponseStatus(code = HttpStatus.OK)
+    @ResponseStatus(code = HttpStatus.CREATED)
     public Long save(@RequestBody final TransacaoDTO transacaoDTO) {
         return transacaoService.save(transacaoDTO);
     }
