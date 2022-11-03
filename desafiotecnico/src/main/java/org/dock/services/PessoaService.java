@@ -27,14 +27,9 @@ public class PessoaService {
                 .filter(pessoaCPFValidation::filter)
                 .orElseThrow(PessoaException::new);
 
-        final Optional<PessoaEntity> pessoaEntity;
-        pessoaEntity = Optional.of(pessoaDTO)
-                .map(e -> {
-                    return pessoaMapper.toEntity(pessoaDTO);
-                })
-                .map(s -> {
-                    return pessoaRepository.save(s);
-                });
+        final Optional<PessoaEntity> pessoaEntity = Optional.of(pessoaDTO)
+                .map(e -> pessoaMapper.toEntity(pessoaDTO))
+                .map(pessoaRepository::save);
 
         return pessoaEntity.get().getId();
     }

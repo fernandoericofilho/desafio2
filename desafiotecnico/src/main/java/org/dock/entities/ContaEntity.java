@@ -37,7 +37,7 @@ public class ContaEntity {
     private Boolean ativo;
 
     @Column(name = "tipo_conta", nullable = false)
-    private Boolean tipoConta;
+    private Integer tipoConta;
 
     @CreationTimestamp
     @Column(name = "data_criacao", updatable = false)
